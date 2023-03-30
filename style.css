@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.board {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(img/johny-goerend-8s3ELxAvKPs-unsplash.jpg);
+    background-size: cover;
+}
+.btn, .btn1, .btn2, .btn3, .btn4 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transition: 0.09s;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(11, 11, 11);
+    text-decoration: none;
+}
+.btn1 {
+    left: 60%;
+    top: 60%;  
+}
+.btn2 {
+    left: 70%;
+    top: 70%; 
+}
+.btn3 {
+    left: 40%;
+    top: 40%;
+}
+.btn4 {
+    left: 30%;
+    top: 30%;
+}
